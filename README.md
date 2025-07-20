@@ -1,115 +1,176 @@
+Hospital Management System - Java & MySQL
+Project Overview
+A comprehensive Hospital Management System developed using:
 
+Frontend: Java Swing (Desktop) + JSP/Servlets (Web)
 
+Backend: MySQL Database
 
+Architecture: MVC with DAO pattern
 
+This system streamlines hospital operations by managing patient records, staff information, appointments, billing, and inventory.
 
+🌟 Key Features
+Patient Management
+Registration and profile creation
 
+Medical history tracking
 
+Admission/discharge management
 
+Search functionality
 
+Staff Management
+Doctor/nurse profiles
 
+Role-based access control
 
+Attendance tracking
 
+Staff scheduling
 
+Appointment System
+Online booking
 
+Doctor availability calendar
 
+Visit history
 
+Appointment reminders
 
+Billing & Payments
+Automated billing with total calculation
 
+Insurance claim processing
 
+Payment tracking
 
+Financial reports
 
+Inventory Management
+Medicine stock control
 
-# Hospital-Management-System-Java-Mysql
-Hospital Management System
-Hospital Management System - Java, JSP, MySQL
+Medical equipment tracking
 
-A full-featured Hospital Management System built using Java, JSP, Servlets, and MySQL. This web application helps manage patient records, hospital staff, billing information, and appointment schedules. Designed with a clean interface and robust backend integration, it simplifies day-to-day hospital operations.
+Purchase orders
 
-🔧 Features
+Expiry alerts
 
-👤 Patient Registration and Login
+Security Features
+Secure login system
 
-💊 Doctor/Staff Search
+Password reset via email (JavaMail API)
 
-🏥 Billing System with Auto Total Calculation
+Token-based authentication (30-minute validity)
 
-🔐 Secure Login & Password Reset (via Email)
+🛠️ Technologies Used
+Core: Java 8+
 
-📄 JSP Frontend + Servlet Backend
+Database: MySQL 5.7+ with JDBC
 
-🔗 JDBC MySQL Integration
+Web: JSP, Servlets
 
-📁 Modular DAO + MVC Architecture
+Server: Apache Tomcat 9
 
-📁 Folder Structure
+UI: Java Swing (Desktop), JSP (Web)
 
+Additional: JavaMail API
+
+📂 Project Structure
+text
 HospitalManagementSystem/
-├── src/main/java/com/company
-│   ├── Servlet/                 # JSP/Servlet controllers
-│   ├── dao/                    # DAO interfaces and implementations
-│   ├── model/                  # POJO classes
-│   └── Utilte/DBUtil.java      # DB connection utility
-├── src/main/webapp/
-│   ├── *.jsp                   # JSP front-end files
-│   ├── shekharhospitallogo.png
-│   └── WEB-INF/lib/           # JAR dependencies
-Servers/
-└── Tomcat Configuration Files
+├── Desktop/                    # Java Swing application
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   ├── controllers/
+│   │   │   │   ├── dao/
+│   │   │   │   ├── model/
+│   │   │   │   └── util/
+│   │   │   └── resources/
+│   │   └── test/
+│   └── lib/
+│
+├── Web/                        # JSP/Servlet application
+│   ├── src/main/java/com/company/
+│   │   ├── Servlet/           # Controllers
+│   │   ├── dao/               # Data Access Objects
+│   │   ├── model/             # Business Objects
+│   │   └── util/              # Utilities
+│   ├── src/main/webapp/
+│   │   ├── WEB-INF/
+│   │   ├── *.jsp              # View files
+│   │   └── resources/
+│   └── Servers/               # Tomcat configs
+│
+└── database/                  # SQL scripts
+🚀 Installation Guide
+Prerequisites
+Java Development Kit (JDK) 8+
 
-⚙️ Tech Stack
+MySQL Server 5.7+
 
-Java
+For Web: Apache Tomcat 9
 
-JSP & Servlets
+MySQL Connector/J
 
-JDBC
+JavaMail API (for email features)
 
-MySQL
+Setup Instructions
+Clone the repository:
 
-Apache Tomcat 9
-
-JavaMail API
-
-🚀 Getting Started
-
-Clone the repository
-
+bash
 git clone https://github.com/kumarmaruthi/Hospital-Management-System-Java-Mysql.git
+Database Setup:
 
-Import into Eclipse/IDE as an existing Maven or Dynamic Web Project.
+Create database: hospital_management (Desktop) or hospital_db (Web)
 
-Configure Database
+Execute provided SQL scripts
 
-Create a database: hospital_db
+Desktop Application:
 
-Import tables from provided SQL script (if included)
+Import into Java IDE
 
-Update DB credentials in DBUtil.java
+Update DBConnection.java with your credentials
 
-Run on Apache Tomcat v9
+Build and run
 
-Add Servers/ configuration if needed
+Web Application:
 
-Access via http://localhost:8080/HospitalManagementSystem/Login.jsp
+Import as Maven/Dynamic Web Project
 
-📧 Password Reset Functionality
+Configure Tomcat server
 
-Uses JavaMail API and Gmail App Password
+Update DBUtil.java with your DB credentials
 
-Secure token valid for 30 minutes
+Configure JavaMail in email utilities
 
-Works via ResetPasswordServlet and ResetPasswordForm.jsp
+Deploy to Tomcat
+
+Access Applications:
+
+Desktop: Run main class
+
+Web: http://localhost:8080/HospitalManagementSystem/Login.jsp
 
 📸 Screenshots
-
-
-
+[Include screenshots of both desktop and web interfaces]
 
 🤝 Contributing
+Contributions are welcome! Please:
 
-Pull requests and suggestions are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Fork the repository
+
+Create your feature branch
+
+Commit your changes
+
+Push to the branch
+
+Open a pull request
 
 📄 License
+MIT License - See LICENSE file for details.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+✉️ Contact
+For support or questions, please open an issue on GitHub or contact the maintainers.  kumarmaruthi.ind@gmail.com
