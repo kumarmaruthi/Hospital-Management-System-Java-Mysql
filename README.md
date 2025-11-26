@@ -113,6 +113,36 @@ HospitalManagementSystem/
 │
 └── database/             # SQL scripts
 
+
+HospitalManagementSystem/
+├── Desktop/
+│   ├── src/
+│   │   ├── main/java/
+│   │   │   ├── controllers/
+│   │   │   ├── dao/
+│   │   │   ├── model/
+│   │   │   └── util/
+│   │   └── resources/
+│   └── lib/
+│
+├── Web/
+│   ├── src/main/java/com/company/
+│   │   ├── servlet/
+│   │   ├── dao/
+│   │   ├── model/
+│   │   └── util/
+│   ├── src/main/webapp/
+│   │   ├── WEB-INF/
+│   │   ├── *.jsp
+│   │   └── resources/
+│   └── Servers/
+│
+└── database/
+
+
+
+
+
 🚀 Installation Guide
 ✅ Prerequisites
 
