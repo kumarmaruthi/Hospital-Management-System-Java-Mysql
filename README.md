@@ -1,3 +1,5 @@
+went some more information then contect contains "9740227692" AND "kumarmaruthi.ind@gmail.com"
+
 🏥 Hospital Management System – Java & MySQL
 
 A comprehensive Hospital Management System developed using Java and MySQL. The project is designed to streamline hospital operations by managing patients, staff, appointments, billing, and inventory.
