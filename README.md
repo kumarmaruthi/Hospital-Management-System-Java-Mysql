@@ -1,4 +1,4 @@
-went some more information then contect contains "9740227692" AND "kumarmaruthi.ind@gmail.com"
+#went some more information then contect contains "9740227692" AND "kumarmaruthi.ind@gmail.com"
 
 🏥 Hospital Management System – Java & MySQL
 
